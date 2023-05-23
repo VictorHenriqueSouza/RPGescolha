@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="titulos">
+        <h1 class="titulo">Perdido na Floresta</h1>
+        <h1><span id="nome">Você</span> está perdido na floresta!</h1>
+    </div>
+        <div class="inv">
+            <div class="inv-aberto">
+                <img src="bag.png" class="inv-botao" id="botao">
+            </div>
+            <div cass="inv-itens" id="itens" class="fechado">
+                <p id="item1" >vazio..</p>
+            </div>
+        </div>
+    <main class="missao">
+        <p id="quest" class="titulo-quest">Você acorda sozinho em uma floresta que não conhece, pelo frio que você sente em suas espinhas, parece ser a madrugada mais gelada que você já sentiu, você logo procura algo para se proteger, na sua frente somente um machado de lenhador enferrujado e uma espada curta, qual você pega?</p>
+        <div class="escolhas">
+            <p id="machado" class="escolha1">1 -"Pego o Machado enferrujado, ele parece um pouco pessado, não vou conseguir fugir se precisar... mas está bem afiado!"</p>
+            <p id="espada" class="escolha1">2 - "Pego a Espada, não está tão afiada... Mas é leve se eu precisar fugir...</p>
+            <p id="escolha1" class="escolha2"> </p>
+            <p id="escolha2" class="escolha2"> </p>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
